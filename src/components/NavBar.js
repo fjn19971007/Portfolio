@@ -7,7 +7,7 @@ const styles = {
   root: {
     display: 'flex',
     justifyContent: 'space-between',
-    padding: '5vw',
+    padding: '5vw 7vw',
   },
   title: {
     fontSize: '45px',
@@ -44,7 +44,7 @@ class NavBar extends Component {
     return (
       <div className={classes.root}>
         <div className={classes.title}>
-          Ray Fang
+          RAY FANG
         </div>
         <div>
           <ul className={classes.list}>

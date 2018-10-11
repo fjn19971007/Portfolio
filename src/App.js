@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Work from './components/Work';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import DoseHealth from './components/DoseHealth';
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
         <div className="App">
             <Route component={NavBar} />
             <Switch>
-              <Route path='/work/dose_health' component={Work} />
+              <Route path='/work/dose_health' component={DoseHealth} />
               <Route path='/resume' component={Resume} />
               <Route path='/contact' component={Contact} />
               <Route path='/' component={Work} />

@@ -4,27 +4,33 @@ import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
-import Dose_Remind from '../img/Dose_Remind.png';
+import Dose_Health from '../img/logoGrey.jpeg';
 
 const styles = {
   container: {
     paddingLeft: '5vw',
     paddingRight: '5vw',
+    paddingBottom: '5vw',
   },
-  item: {
-    padding: '1vw',
+  link: {
+    display: 'inline-block',
     position: 'relative',
-    '&:hover $image': {
+    '&:hover $imgContainer': {
       opacity: 0,
       cursor: 'pointer',
     }
   },
-  image: {
+  imgContainer: {
     position: 'relative',
+    backgroundColor: 'white',
     width: '100%',
     zIndex: 300,
     opacity: 1,
     transition: 'opacity 1000ms cubic-bezier(.33,0,.2,1)',
+  },
+  image: {
+    position: 'relative',
+    width: '80%',
   },
   title: {
     width: '100%',
@@ -55,9 +61,11 @@ class Work extends Component {
     const { classes } = this.props;
 
     return (
-      <Grid className={classes.item} item xs={6}>
-        <Link to='/work/dose_health'>
-          <img src={Dose_Remind} className={classes.image}/>
+      <Grid item xs={6}>
+        <Link className={classes.link} to='/work/dose_health'>
+          <div className={classes.imgContainer}>
+            <img src={Dose_Health} className={classes.image}/>
+          </div>
           <div className={classes.title}><p className={classes.p}>Dose Health</p></div>
         </Link>
       </Grid>
@@ -68,7 +76,7 @@ class Work extends Component {
     const { classes } = this.props;
 
     return (
-      <Grid className={classes.container} container spacing={16}>
+      <Grid className={classes.container} container spacing={24}>
         {this.renderPreview()}
         {this.renderPreview()}
         {this.renderPreview()}
