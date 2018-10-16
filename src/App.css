@@ -32,3 +32,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.example-enter {
+  height: 0;
+}
+.example-enter.example-enter-active {
+  height: 132.8px;
+  transition: height 500ms ease-in-out;
+}
+.example-leave {
+  height: 133.8px;
+}
+.example-leave.example-leave-active {
+  height: 0;
+  transition: height 500ms ease-in-out;
+}
