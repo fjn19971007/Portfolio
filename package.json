@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fjn19971007.github.io/",
+  "homepage": "http://fjn19971007.github.io/Portfolio",
   "dependencies": {
     "@material-ui/core": "^3.1.2",
     "lodash": "^4.17.11",
