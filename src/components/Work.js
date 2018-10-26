@@ -9,6 +9,7 @@ import sichl_logo_red from '../img/LogoSichl-Red.png';
 import mfan_logo from '../img/logo_mfan.png';
 import crypto_logo from '../img/crypto-dash.png';
 import weather_logo from '../img/weather-logo.png';
+import music_logo from '../img/music_rating.png';
 
 const styles = {
   container: {
@@ -117,8 +118,8 @@ class Work extends Component {
         {this.renderAnchor({ img: mfan_logo, title: 'MFAN', width: '50%', url: 'https://floydchenchen.github.io/MFAN-REACT/' })}
         {this.renderAnchor({ img: crypto_logo, title: 'Crypto Dashboard', width: '30%', url: 'https://fjn19971007.github.io/CryptoDashboard/'})}
         {this.renderAnchor({ img: crypto_logo, title: 'Old Crypto Stats', width: '30%', url: 'http://www-users.cselabs.umn.edu/~fangx205/bitcoin/BitcoinStat.php'})}
+        {this.renderAnchor({ img: music_logo, title: 'Music Rating', width: '30%', url: 'https://aqueous-eyrie-57059.herokuapp.com/'})}
         {this.renderAnchor({ img: weather_logo, title: 'Weather Forecast', width: '30%', url: 'https://fjn19971007.github.io/WeatherForecast-React/'})}
-
       </Grid>
     );
   }
