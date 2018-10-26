@@ -18,7 +18,7 @@ const styles = {
     margin: '0 auto',
     padding: '0 5vw',
     textAlign: 'left',
-    fontSize: '0.8em',
+    fontSize: '1em',
     lineHeight: '1.5em',
     letterSpacing: '0.4px',
     fontWeight: '300',
