@@ -18,6 +18,7 @@ const styles = {
   },
   item: {
     overflow: 'hidden',
+    height: '40vh',
   },
   link: {
     display: 'inline-block',
