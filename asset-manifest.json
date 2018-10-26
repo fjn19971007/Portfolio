@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.2d8f8ca1.css",
   "main.css.map": "static/css/main.2d8f8ca1.css.map",
-  "main.js": "static/js/main.ab198bbe.js",
-  "main.js.map": "static/js/main.ab198bbe.js.map",
+  "main.js": "static/js/main.d66a78d8.js",
+  "main.js.map": "static/js/main.d66a78d8.js.map",
   "static/media/LogoSichl-Red.png": "static/media/LogoSichl-Red.e6e840c4.png",
   "static/media/crypto-dash.png": "static/media/crypto-dash.59b84266.png",
   "static/media/login.png": "static/media/login.eff89095.png",
@@ -10,6 +10,7 @@
   "static/media/logoGrey.jpeg": "static/media/logoGrey.aef2c2ec.jpeg",
   "static/media/logo_mfan.png": "static/media/logo_mfan.c7290aec.png",
   "static/media/medtime-detail.png": "static/media/medtime-detail.0784709a.png",
+  "static/media/music_rating.png": "static/media/music_rating.e5687074.png",
   "static/media/user-list.png": "static/media/user-list.8f4e9446.png",
   "static/media/user-medtime.png": "static/media/user-medtime.2f5beb87.png",
   "static/media/weather-logo.png": "static/media/weather-logo.55b71a61.png"
